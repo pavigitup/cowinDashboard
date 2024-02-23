@@ -1,1 +1,6 @@
-/* Write your CSS here */
+.bg {
+  background-color: #1c1c2b;
+  padding: 5%;
+  margin: 5% 0%;
+  width: 70%;
+}

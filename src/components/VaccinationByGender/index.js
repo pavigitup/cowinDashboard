@@ -5,9 +5,9 @@ const VaccinationByGender = props => {
   console.log('dd', vaccinationByGenders)
 
   return (
-    <div>
+    <div className="bg">
       <h1>Vaccination by Gender</h1>
-      <PieChart width={730} height={250}>
+      <PieChart width={730} height={300}>
         <Pie
           cx="50%"
           cy="50%"

@@ -7,6 +7,7 @@ import {
   Legend,
   Bar,
 } from 'recharts'
+import './index.css'
 
 const dataFormatter = number => {
   if (number > 1000) {
@@ -25,7 +26,7 @@ const VaccinationCoverage = props => {
   }))
 
   return (
-    <div>
+    <div className="bg">
       <h1>Vaccination Coverage</h1>
 
       <BarChart width={1000} height={300} data={data}>

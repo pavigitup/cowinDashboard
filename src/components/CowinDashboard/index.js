@@ -103,8 +103,8 @@ class CowinDashboard extends Component {
 
   render() {
     return (
-      <div>
-        <div>
+      <div className="bg-con">
+        <div className="head-con">
           <img
             src="https://assets.ccbp.in/frontend/react-js/cowin-logo.png"
             alt="website logo"

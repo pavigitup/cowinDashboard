@@ -1,7 +1,30 @@
 /* Write your CSS here */
+.bg-con {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.head-con {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
 .loader-con {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+h1 {
+  color: #ffff;
+  width: 70%;
+  margin-bottom: 20px;
+}
+.web-logo {
+  height: 50px;
+  padding-right: 10px;
 }
